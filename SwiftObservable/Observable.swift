@@ -66,6 +66,10 @@ public class Observable {
         return events[ eventName ]
     }
     
+    public func getEventCount() -> Int{
+        return events.count
+    }
+    
     public func clearEvents(){
         events.removeAll(keepCapacity: false)
     }
