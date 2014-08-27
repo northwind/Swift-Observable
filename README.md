@@ -32,29 +32,21 @@ entity.on( "add", listener.onAddEvent )
 //5. trigger an event
 entity.fireEvent( "add" )
 entity.fireEvent( "add", params: 2, bool, "a" ) //add special data for this event
-
 ```
 
 ### API
-Here is Observable's api
 
 - on(eventName:String, handler:HandlerType, tag:Int=0)
 - un(eventName:String, tag:Int)
-
 - addEvents(eventNames: String...)
 - addEvent(eventName:String)
 - removeEvent(eventName:String)
 - clearEvents()
-
 - suspendEvent(eventName:String)
 - resumeEvent(eventName:String)
 - suspendEvents()
 - resumeEvents()
-
 - fireEvent(eventName:String, params: AnyObject...)
-
-### Events
-
 
 ### Installation
 Just copy all the swift file in folder SwiftObservable into your project.
@@ -67,6 +59,7 @@ As the swift is still in beta, it doesn't seem swifty enough, so some feature ca
 - Customize Event
 - Remove Tag
 - Optimize Variadic Parameters 
+
 
 
 Hope this library will help you.
