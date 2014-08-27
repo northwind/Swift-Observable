@@ -38,7 +38,7 @@ entity.fireEvent( "add", params: 2, bool, "a" ) //add special data for this even
 
 - on(eventName:String, handler:HandlerType, tag:Int=0)
 - un(eventName:String, tag:Int)
-- addEvents(eventNames: String...)
+- addEvents(eventNames:String...)
 - addEvent(eventName:String)
 - removeEvent(eventName:String)
 - clearEvents()
@@ -46,13 +46,13 @@ entity.fireEvent( "add", params: 2, bool, "a" ) //add special data for this even
 - resumeEvent(eventName:String)
 - suspendEvents()
 - resumeEvents()
-- fireEvent(eventName:String, params: AnyObject...)
+- fireEvent(eventName:String, params:AnyObject...)
 
 ### Installation
-Just copy all the swift file in folder SwiftObservable into your project.
+Just copy all the swift files in folder SwiftObservable into your project.
 
 
-### Stuff
+### TODO
 As the swift is still in beta, it doesn't seem swifty enough, so some feature can't support now, but going to add in the feature.
 
 - EventProtocol
